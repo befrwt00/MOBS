@@ -2,7 +2,7 @@ const http = require('http');
 const sense = require('sense-hat-led');
 const fs = require('fs/promises');
 
-const hostname = '192.168.1.61';
+const hostname = '192.168.178.106';
 const port = 3000;
 
 function flashIndicator() {
